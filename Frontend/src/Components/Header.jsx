@@ -11,7 +11,7 @@ import { FiBell } from "react-icons/fi";
 import { CgClose } from "react-icons/cg";
 
 import { Context } from "../Context/contextApi";
-import Loader from "../Shared/loader";
+import Loader from "../Shared/Loader";
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
